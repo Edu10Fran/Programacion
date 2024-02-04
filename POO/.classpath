@@ -10,5 +10,7 @@
 	<classpathentry kind="src" path="practica03"/>
 	<classpathentry kind="src" path="practica04"/>
 	<classpathentry kind="src" path="practica05"/>
+	<classpathentry kind="src" path="practica06"/>
+	<classpathentry kind="src" path="practica07"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
