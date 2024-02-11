@@ -9,7 +9,7 @@ public class UsoSmartphone {
 		miSmartphone.fabricante = "Julia";
 		// He usado protected para demostrar que no es seguro 
 		// cuando tenemos la clase Main "UsoSmartphone" en el mismo paquete
-		JOptionPane.showMessageDialog(null, miSmartphone.dimeFabricante());
+		JOptionPane.showMessageDialog(null, "Nuevo fabricante: " +miSmartphone.dimeFabricante());
 		// Llamar y recibir llamadas
 		miSmartphone.llamar("123456789");
 		miSmartphone.recibirLlamadas("123456789");
