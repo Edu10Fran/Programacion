@@ -2,12 +2,10 @@ package exercise05;
 
 public abstract class Empleado {
 	private String nombre;
-	private double sueldoBase;
 	private double sueldoFinal;
 	// Constructor 
-	public Empleado(String nombre, double sueldoBase) {
+	public Empleado(String nombre) {
 		this.nombre = nombre;
-		this.sueldoBase = sueldoBase;
 		this.sueldoFinal = 0;
 	}
 	// Método abstracto para calcular el salario
@@ -20,14 +18,7 @@ public abstract class Empleado {
 	public void establecerNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	// Método getter para sueldo base
-	public double dimeSueldoBase() {
-		return this.sueldoBase;
-	}
-	// Método setter para sueldo base
-	public void establecerSueldoBase(double sueldo) {
-		this.sueldoBase = sueldo;
-	}
+	
 	// Método getter para sueldo final 
 	public double dimeSueldoFinal() {
 		return this.sueldoFinal;
